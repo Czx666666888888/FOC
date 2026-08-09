@@ -1,0 +1,40 @@
+# STM32 / embedded build output
+Debug/
+Release/
+build/
+*.o
+*.obj
+*.elf
+*.axf
+*.hex
+*.bin
+*.map
+*.list
+*.d
+*.su
+
+# IDE and editor metadata
+.vscode/
+.idea/
+*.uvguix.*
+*.uvoptx.bak
+*.uvprojx.bak
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
